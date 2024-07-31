@@ -113,7 +113,13 @@ def convert_to_snake_case(pascal_or_camel_cased_string):
 
     return clean_snake_cased_string
 
+# Step 12
 
+# Inside the main() function, replace pass with a convert_to_snake_case() call. 
+# Pass the string aLongAndComplexString as input to the function and print out the output using the print() function.
+
+def main():
+    print(convert_to_snake_case('aLongAndComplexString'))
 
 
 
