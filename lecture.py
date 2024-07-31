@@ -155,4 +155,19 @@ snake_cased_char_list = [
 
 # Start by adding this line within the square braces.
 
+# Step 18
+
+# When you start a list comprehension with an if statement like this, 
+# Python requires you to also add an else clause to the expression.
+
+snake_cased_char_list = [
+    '_' + char.lower() if char.isupper()
+    else char
+]
+
+# Python will interpret this updated expression as "append '_' + char.lower() to the list if char is in uppercase, append char as is otherwise" and this covers the case for both the capital and lowercase letters in the input string.
+
+# Add an else clause inside the pair of square braces.
+
+
 
