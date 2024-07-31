@@ -24,4 +24,19 @@ def convert_to_snake_case(pascal_or_camel_cased_string):
 def convert_to_snake_case(pascal_or_camel_cased_string):
     snake_cased_char_list = [] 
 
+# Step 3
+
+# Now that you have an empty list in place, you can start iterating through the input string 
+# and start converting each character to snake case.
+
+# Use a for loop to iterate through the pascal_or_camel_cased_string. 
+# Make sure to name the target variable char which is short for character.
+
+def convert_to_snake_case(pascal_or_camel_cased_string):
+    snake_cased_char_list = []
+    for char in pascal_or_camel_cased_string:
+        pass
+
+
+
 
