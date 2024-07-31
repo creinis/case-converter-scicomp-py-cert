@@ -132,5 +132,27 @@ def main():
 if __name__ == '__main__':
     main()
 
+# Step 15
+
+# So far, in this project you have not seen any usage of list comprehensions whatsoever. 
+# Like you learned in the first step, list comprehensions are a more concise way of constructing lists in Python.
+
+# Begin the transition to comprehensions by commenting out all the lines of code inside the convert_to_snake_case() function. 
+# Don't delete them as they'll be helpful when you implement the logic using a list comprehension.
+
+# Remember to add the pass keyword to the function body to prevent the code from failing during the tests.
+
+# Step 17
+
+#Inside the space you left between the pair of square braces, you can describe the value that you would like 
+# to include in the list based on a given condition.
+
+snake_cased_char_list = [
+    '_' + char.lower() if char.isupper()
+]
+
+# Python will interpret this expression as "append '_' + char.lower() to the list if char is in uppercase" and this will convert the case for the capital letters in the input string.
+
+# Start by adding this line within the square braces.
 
 
