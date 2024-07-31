@@ -188,5 +188,21 @@ snake_cased_char_list = [
 # Add this last line of code to iterate over the characters of the string in your list comprehension 
 # and make sure that you're writing it within the pair of square braces.
 
+# Step 20
 
+# You will still need to join the list elements into a string, strip off any dangling underscores and 
+# return the string. Even though you can do that like you did earlier, let's see a shorter alternative.
+
+# return ''.join(snake_cased_char_list).strip('_')
+
+# This single line of code will join the list of characters into a string, strip off any dangling underscores, 
+# and return the resulting string. Add this line on the same level as the snake_cased_char_list variable 
+# and inside the convert_to_snake_case() function.
+
+snake_cased_char_list = [
+    '_' + char.lower() if char.isupper()
+    else char
+    for char in pascal_or_camel_cased_string
+]
+return ''.join(snake_cased_char_list).strip('_')
 
