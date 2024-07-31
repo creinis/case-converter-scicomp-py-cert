@@ -121,5 +121,16 @@ def convert_to_snake_case(pascal_or_camel_cased_string):
 def main():
     print(convert_to_snake_case('aLongAndComplexString'))
 
+# Step 13
+
+# Before running the main() function, you need to make sure that the file is running as a script. 
+# Add an if statement on the same level as the two existing functions and 
+# check whether __name__ == '__main__' evaluates to True or not.
+
+def main():
+    print(convert_to_snake_case('aLongAndComplexString'))
+if __name__ == '__main__':
+    main()
+
 
 
